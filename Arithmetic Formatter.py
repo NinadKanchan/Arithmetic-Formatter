@@ -43,10 +43,7 @@ def arithmeticRepr(listOfOperations):
             t.add_row(decoration)
             t.add_row(result)
             t.align = "r"
-            
-            print(t)
-            
-            
+            return t  
         else:
             raise Exception
     except:
